@@ -1,15 +1,21 @@
 
 
+body {
+    margin: 0;
+}
 
-
-.menus {
+.menus, .rodape {
     background: #2F2F2F;
-    padding: 30px;
+    padding: 30px 30px 30px 120px;
 }
 
 .menu {
     text-decoration: none;
+    margin: 0px 30px 0px 0px;
     color: white;
+}
+.artigo {
+    padding: 20px 180px 40px 120px;
 }
 
 .btn {
@@ -20,3 +26,43 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+.formulario {
+    padding: 20px 180px 40px 240px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#titulo_for {
+    padding: 30px 180px 0px 120px;
+    font-size: 50px;
+}
+
+.entrada {
+    width: 80%;
+    height: 30px;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.entrada_area {
+    width: 80%;
+    height: 80px;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn_contato {
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background: #2F2F2F;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
