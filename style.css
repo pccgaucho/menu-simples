@@ -1,0 +1,22 @@
+
+
+
+
+.menus {
+    background: #2F2F2F;
+    padding: 30px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: #2F2F2F;
+    border-radius: 20px;
+    cursor: pointer;
+}
